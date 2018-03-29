@@ -34,7 +34,7 @@ export class DirectoryComponent implements OnInit {
   fbGetData(){
     firebase.database().ref('/').on('child_added', (snapshot =>{
       this.qualities.push(snapshot.val())
-    })
+    }));
   }
 
   fbPostData(name,intent){
