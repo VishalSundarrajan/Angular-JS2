@@ -11,7 +11,8 @@ A Part of tutorial series to interface angular app with google firebase with the
   
  ` ng2 create <app-name> [options]`
   
-####  How to connect to server
+####  Hosting in a live server
+
 If you are using atom, install and start the atom-live-server,
 
 ` ng serve --port <port-number>`
