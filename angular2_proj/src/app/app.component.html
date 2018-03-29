@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<header>
+  <h1>Welcome to {{ title }}!</h1>
+  <nav>
+    <ul>
+      <li><a [routerLink]="['']">Home</a><li>
+      <li><a a [routerLink]="['directory']">Directory</a><li>
+    </ul>
+  </nav>
+</header>
+
+
+<section id ="main">
+  <!--<app-home [vishal]="vishal" (onYell)=yell($event)>hello there!</app-home>-->
+
+  <router-outlet></router-outlet>
+
+</section>

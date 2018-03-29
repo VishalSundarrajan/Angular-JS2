@@ -1,0 +1,4 @@
+[{"name":"help", "intent":"good"},
+{"name":"blame", "intent":"bad"},
+{"name":"complain", "intent":"bad"},
+{"name":"future", "intent":"moderate"}]
